@@ -1,0 +1,87 @@
+.contact-form {
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 1px solid #e9c46a;
+    padding: 10px;
+    width: 50vmin;
+    aspect-ratio: 1/1;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.form-input {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    color: #171e29;
+    font-family: Inter,sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+input {
+    padding: 5px;
+    width: 60%;
+    border: 2px solid #F26D50;
+}
+
+textarea {
+    padding: 5px;
+    width: 60%;
+    aspect-ratio: 1/0.3;
+    border: 2px solid #F26D50;
+}
+
+.submit-btn {
+    width: 100%;
+    aspect-ratio: 1/0.1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  background-color: #fff;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit-btn:focus {
+  color: #171e29;
+}
+
+.submit-btn:hover {
+    border: 3px solid;
+  border-color: #F26D50;
+  color: #06f;
+  fill: #06f;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 80vmin;
+    }
+}

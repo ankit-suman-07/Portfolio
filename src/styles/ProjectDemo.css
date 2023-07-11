@@ -1,0 +1,24 @@
+.empty {
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loader {
+    margin: auto;
+    border: 10px solid #EAF0F6;
+    border-radius: 50%;
+    border-top: 10px solid #222222;
+    width: 10%;
+    aspect-ratio: 1/1;
+    animation: spinner 2s linear infinite;
+}
+  
+
+  @keyframes spinner {  
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

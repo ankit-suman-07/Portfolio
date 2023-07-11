@@ -1,0 +1,72 @@
+.featured {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card-image img{
+    width: 100%;   
+}
+
+.project {
+    width: 30vw;
+    aspect-ratio: 1/1.3;
+    
+    background-color: #5B504F;
+    
+}
+
+.h2 {
+    padding-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+.all-btn {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  background-color: #fff;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  padding: 5px;
+}
+
+.all-btn:focus {
+  color: #171e29;
+}
+
+.all-btn:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.all-btn:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media only screen and (max-width: 600px) {
+    .featured {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

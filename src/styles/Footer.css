@@ -1,0 +1,25 @@
+footer {
+    background-color: #25201B;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.socialMedia {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    color: azure;
+}
+
+.icons:hover {
+    color: #e9c46a;
+    cursor: pointer;
+}

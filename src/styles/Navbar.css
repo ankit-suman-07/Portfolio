@@ -1,0 +1,147 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 10px;
+    background-color: #25201B;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 95%;
+    aspect-ratio: 1/1;
+    
+    border-radius: 50%;
+    
+}
+
+.image {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #ffff;
+}
+
+.link-list {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-list .links {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.link-list .links:hover {
+    color: #e9c46a;
+}
+
+.contact-btn {
+    height: 50%;
+    width: 100px;
+    background-color: #e9c46a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-btn:hover {
+    background-color: #333333;
+}
+
+
+.toggleButton {
+    position: fixed;
+    
+    border: none;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .toggleButton svg {
+    font-size: 50px;
+  }
+  .toggleButton button {
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    color: #F26D50;
+    cursor: pointer;
+  }
+
+.re-icon {
+    color: #e9c46a;
+}
+
+#open {
+    height: 100vh;
+    justify-content: center;
+}
+
+#open .links {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 100px;
+  }
+
+  #open a {
+    width: 100%;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .logo {
+        display: none;
+      }
+      .toggleButton {
+        display: flex;
+      }
+      #close a {
+        display: none;
+      }
+
+      #close .contact-btn {
+        display: none;
+      }
+      .nav a:hover {
+        color: #F26D50;
+        border : none;
+      }
+      
+      .link-list {
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      #open .contact-btn {
+        width: 100%;
+        height: 50px;
+      }
+    
+  }
+
+  @media only screen and (min-width: 600px) {
+
+    
+
+    .toggleButton {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  
+    #open {
+      height: 100px;
+    }
+  
+    #open .links {
+      flex-direction: row;
+    }
+  }

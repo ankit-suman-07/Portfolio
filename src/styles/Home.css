@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.home {
+  height: calc(100vh - 70px);
+  display: flex;
+  border-bottom: 10px solid#333333;
+}
+
+.hero {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+
+.greeting {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #333333;
+}
+
+span {
+  color: #F26D50;
+}
+
+.greeting {
+  font-size: 3.5rem;
+}
+
+.tagline {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.description {
+  width: 95%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  display: flex;
+  text-align:justify;
+text-justify:inter-word;
+}
+
+.interact {
+  display: flex;
+  padding: 10px 0 10px 0;
+}
+
+.resume {
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  border-radius: 3px;
+  border: 0px;
+  background-color: #333333;
+  color: #ffff;
+}
+
+.resume:hover {
+  cursor: pointer;
+  background-color: #ffff;
+  color: #F26D50;
+  border: 2px solid #222222;
+}
+
+.imageDiv-top {
+  display: none;
+}
+
+.imageDiv {
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.socials {
+    border-left:  3px solid #F26D50;
+    color: #333333;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials a {
+  color: #222222;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.socials:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .imageDiv-top {
+    display: flex;
+    width: 30%;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero {
+    align-items: center;
+    padding-top: 80px;
+  }
+  
+  .greeting {
+    font-size: 2.8rem;
+  }
+  .tagline {
+    font-size: 1.2rem;
+    color: #333333;
+  }
+
+  .description {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    padding-left: 0px;
+  }
+
+  .imageDiv {
+    display: none;
+  }
+}

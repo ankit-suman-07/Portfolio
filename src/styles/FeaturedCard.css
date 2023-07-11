@@ -1,0 +1,119 @@
+.card {
+    width: 20vw;
+    aspect-ratio: 1/1.4;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    border-radius: 2px;
+    border: 0px solid #F26D50;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+
+.card-image {
+    background-color: white;
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card-image img {
+    width: 70%;
+}
+
+h3 {
+    margin: 0px;
+    width: 100%;
+    aspect-ratio: 1/0.1;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools {
+    margin-top: 0px;
+    width: 100%;
+    aspect-ratio: 1/0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 100%;
+    aspect-ratio: 1/0.4;
+}
+
+.description p {
+    font-size: 0.7rem;
+}
+
+.tool-icon {
+    width: 8%;
+}
+
+.demo-btn {
+    width: 100%;
+    aspect-ratio: 1/0.1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  background-color: #fff;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.demo-btn:focus {
+  color: #171e29;
+}
+
+.demo-btn:hover {
+    border: 3px solid;
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.demo-btn:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+}
