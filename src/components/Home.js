@@ -26,7 +26,7 @@ function Home() {
             Hi! I'm <span>Ankit Suman</span> 
         </div>
         <div className="tagline heading" >
-            A passionate Web Developer
+            A passionate Web Developer & Designer.
         </div>
         <div className="description" >
         interested in learning more about how computers work, and I have been working on my own projects that combine coding and art. My current project is a fun little game where you play as a cat who can jump up walls. It’s done in HTML5, JavaScript, CSS3, and Python and runs in any browser you can access.
